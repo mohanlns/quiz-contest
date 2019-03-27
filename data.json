@@ -1,0 +1,11 @@
+Solution_data = '{"q1" : [10,20,22,30], "q2" : [12,20,23,31], "q3" : [14,20,21,32], "q4" : [16,20,26,33], "q5" : [19,20,22,34]}';
+
+Question_description = '{"q1" : "what is the sum of the set A and B where A=10 and B=20" , "q2":"what is the sum of the set A and B where A=11 and B=20" , "q3" : "what is the sum of the set A and B where A=12 and B=20" , "q4" : "what is the sum of the set A and B where A=13 and B=20" , "q5" : "what is the sum of the set A and B where A=14 and B=20"}';
+
+// var Solution_data = {
+// 		    "1":[10,20,22,30],
+// 			"2":[12,20,23,31],
+// 			"3":[14,20,21,32],
+// 			"4":[16,20,26,33],
+// 			"5":[19,20,22,34],
+// 		};

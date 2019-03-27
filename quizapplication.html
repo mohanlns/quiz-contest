@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Quiz Application</title>
+	<link rel="stylesheet" type="text/css" href="mainquiz.css">	
+</head>
+
+<body>
+
+	<div id="container">
+		<header>
+
+			<p><h1>Quiz Contest 2k19</h1></p>
+		
+		</header>
+		<div id="banner">
+			
+			<p class="textheader">Welcome to RAAMNAAM'S quiz contest let's begin....! </p>
+			<p>Time:15 Min</p>
+			
+			
+			<form id="form_change">
+				
+				<p>To begin the test press start button down below</p>
+				<input id='start_button' type="button" class="button" onclick="testStart(); setTimeout(myFunction, 300000); testContent();" name="Start" value="Start"/>
+			
+			</form>
+
+
+		</div>
+		<div id="content">
+			<form id="page_context">
+				<p>Quiz did not started yet</p>
+			</form>
+
+		</div>
+		
+	</div>
+
+</body>
+
+<script type="text/javascript" src="data.json"></script>
+<script language="javascript" type="text/javascript" src="mainquiz.js"> </script>
+<!-- <footer>
+	<script language="javascript" type="text/javascript" src="mainquiz.js"> </script>
+</footer> -->
+</html>
